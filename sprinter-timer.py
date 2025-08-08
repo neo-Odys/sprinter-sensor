@@ -120,7 +120,7 @@ try:
         time.sleep(5)
 
 except KeyboardInterrupt:
-    print("Interrupted by user")
+    print("Bye Bye")
 
 finally:
     GPIO.output(BUZZER, GPIO.HIGH)
